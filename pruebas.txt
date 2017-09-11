@@ -1,0 +1,15 @@
+
+	<article>
+		<div class="wrap-article">
+		 	<form class="form" action="/my-handling-form-page" method="post">
+			   
+			        <input type="text" id="name" placeholder="Nombre de usuario" class="boxT" />
+
+			        <input type="password" " id="pass" placeholder="&#128272;   Contraseña" class="boxT" />
+
+			   		<input type="email" id="mail" placeholder="&#128231;   Correo Electr&oacute;nico" class="boxT" />
+
+			         <input type="submit" value="Autenticar" class="boton">
+			</form>
+		</div>
+	</article>

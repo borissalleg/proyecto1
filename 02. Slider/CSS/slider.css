@@ -1,0 +1,49 @@
+
+.wrap-slider
+{
+    width:95%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+.wrap-slider ul
+{
+    display: flex;
+    
+    width: 400%;
+    padding: 0;
+    
+    animation: efecto 20s infinite;
+    animation-timing-function:
+}
+@keyframes efecto 
+{
+    0%{margin-left: 0; }
+    20%{margin-left: 0; }
+    
+    25%{margin-left: -100%; }
+    45%{margin-left: -100%; }
+    
+    25%{margin-left: -200%; }
+    45%{margin-left: -200%; }
+}
+.wrap-slider li
+{
+    width: 100%;
+    list-style: none;
+}
+
+.wrap-slider img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+h1
+{
+    color: blue;
+}

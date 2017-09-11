@@ -1,0 +1,254 @@
+* 
+{
+  margin :0 auto;
+  background: white;
+  
+  padding: 0;
+  width: 1200px;
+  height: 720px;
+  border: 1px dotted blue;
+}
+/*Encabezado y dos envolturas */
+header
+{
+  width: 100%;
+  height: 150px;
+  background: blue;
+  border-radius: 60px;
+} 
+
+/*1. Envoltura de Imagen*/
+.wrap-img .img
+{
+	position: relative;
+    width: 150px;
+	height: 150px;
+	z-index: -1;
+}
+
+.wrap-img 
+{
+    width: 150px;
+	height: 150px;
+	
+	border-radius: 50%;
+	border: solid 2px red;		
+
+	margin-top:20px;
+	margin-left: 140px;
+
+
+    -webkit-box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+	-moz-box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+	box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+	overflow: hidden;
+
+
+}
+
+.wrap-img:hover 
+{
+	
+	-webkit-transform:scale(1.3);transform:scale(1.3);
+	
+}
+
+/*titulo encabezado*/
+.wrap-title 
+{
+	position: absolute;
+	top:1px;
+	left: 450px;
+	
+	
+	width: 450px;
+	height: 150px;
+	background-color: blue;
+
+}
+
+.wrap-title p
+{
+  cursor: default;
+  position: absolute;
+  top: -170px;
+  width: 150px;
+  left: -500px;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  margin: auto;
+  display: block;
+
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 140px;
+  color: yellow;
+  background: blue;
+  text-align: center;
+
+  text-transform:uppercase;
+  animation:blur 1.5s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+
+  
+  }
+
+.wrap-title2 
+{
+	
+	width: 50px;
+	height: 20px;
+
+	position: absolute;
+	top: 110px;
+	left: 920px;
+	
+	background: blue;
+}
+
+
+.wrap-title2 p 
+{
+ 	position: absolute;
+	top:-40px;
+	left: -40px;
+	
+	
+	font-family: 'Caveat Brush', cursive;
+	font-size: 60px;
+	color: red;
+	width: 50px;
+	height: 20px;
+	background: blue;
+	text-align:center;
+    
+    letter-spacing: -7px;
+    font-weight:700;
+
+    line-height: 10px;
+    -webkit-animation: bounce 1.5s ease infinite alternate;
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.6);
+
+
+  
+
+
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -10px;
+    text-shadow: 0 1px 0 #CCC, 0 2px 0 #CCC, 0 3px 0 #CCC, 0 4px 0 #CCC, 0 5px 0 #CCC, 0 6px 0 #CCC, 0 7px 0 #CCC, 0 8px 0 #CCC, 0 9px 0 #CCC, 0 30px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+#izq, #der
+{
+    position: relative;
+	float: left;
+	width: 48%;
+	height: 250px;
+	background: white;
+}
+.titulo
+{
+    
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+	font-size: 34px;
+
+	
+    
+    background: red;
+    border-top-left-radius: 1em;
+
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 2s;
+
+    -webkit-box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+	-moz-box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+	box-shadow: -3px -5px 50px 1px rgba(0,0,0,1);
+   
+}
+
+ .titulo:hover
+{
+  width:100%;
+}
+
+#izq .parrafo
+{
+	 
+	width: 85%;
+	font-family: 'Caveat', cursive;
+	margin-top: 20px;
+	color: blue;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#izq .img
+{
+	position: absolute;
+	top: 10px;
+	right: 280px;
+	display: inline;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+
+::selection {
+  background: transparent;
+}
+
+
+
+.area{
+  
+}
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
+}
+
+
+nav
+{
+	width: 100%;
+	height: 50px;
+	background: yellow;
+}
+
+
